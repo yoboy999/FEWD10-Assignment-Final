@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Museo300Regular';
+    src: url('fonts/Museo300-Regular-webfont.eot');
+    src: url('fonts/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Museo300-Regular-webfont.woff') format('woff'),
+         url('fonts/Museo300-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo500Regular';
+    src: url('fonts/Museo500-Regular-webfont.eot');
+    src: url('fonts/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Museo500-Regular-webfont.woff') format('woff'),
+         url('fonts/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Museo500-Regular-webfont.svg#Museo500Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* base */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 100%;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1;
+    color: deepskyblue;
+    text-align: center;
+    
+}
+h2, h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+	font-family: 'Roboto', serif;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+.main-heading{
+    padding-top;: 5px;
+    background-color: black;
+    max-width: 100%;
+}
+.button{
+    text-align: center;
+    padding: 3%;
+    
+    
+}
+.form{
+    background-color: #d1d1d1;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/*Removing the border from fieldsets*/
+fieldset {
+    border: none;
+    padding: 0;
+  }
+
+
+.section1{
+    padding-bottom:3%
+}
+
+input, text {
+    background-color : #d1d1d1;
+    border: none;
+}
+
+legend{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 1.5em;
+    
+}
+/*media queries for smaller screen size*/
+@media only screen and (max-width:768px){ 
+    .container {
+            width: 768px;
+            margin: 0 auto;
+            max-width: 100%
+        }
+    body {
+       font-size:  12px;
+        }
+    
+ .section2 input, label {
+        float: left;   
+    }
+
+ .section2 input {
+        clear: both;    
+    }
+    
+    
+.section1a input, label {
+        float: left;   
+    }   
+.section1a input {
+        clear: both;    
+    }
+    textarea {
+  overflow: auto;
+}
+}
