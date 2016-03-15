@@ -29,6 +29,49 @@ html {
   box-sizing: inherit;
 }
 
+
+.hamburger{
+    display: none;
+}
+#page-header {
+	background: black;
+	color: white;
+	overflow: hidden;
+	border-bottom: 4px solid red;
+	padding: 0% 3%;
+    /*position: fixed;
+    width: 100%;*/
+}
+#page-header a {
+	color: inherit;
+	text-decoration: none;
+}
+#page-header h1 {
+	float: left;
+	color: deepskyblue;
+	font-family: 'Roboto', serif;
+	font-size: 1.5em;
+	margin: 20px 0 0 0;
+}
+#page-header nav {
+	float: right;
+}
+#page-header nav li {
+	float: left;
+}
+#page-header nav a {
+	display: block;
+	padding: 20px 15px;
+}
+#page-header nav li a:hover {
+	color: deepskyblue;
+}
+
+
+.footer{
+    clear: both;
+    text-align: center;
+}
 textarea {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -37,6 +80,10 @@ textarea {
 	width: 100%;
 }
 
+.main-heading h1{
+    display: none;
+    
+}
 h1 {
 	font-size: 2em;
 	line-height: 1;
@@ -61,11 +108,7 @@ p {
 	margin: 0 0 1.5em 0;
 }
 
-.main-heading{
-    padding-top;: 5px;
-    background-color: black;
-    max-width: 100%;
-}
+
 .button{
     text-align: center;
     padding: 3%;
@@ -73,7 +116,6 @@ p {
     
 }
 .form{
-    background-color: #d1d1d1;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -89,7 +131,7 @@ fieldset {
 }
 
 input, text {
-    background-color : #d1d1d1;
+    
     border: none;
 }
 

@@ -22,10 +22,12 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	cursor: default;
+    max-width: 960px;
+  
 }
 
 .wrapper {
-	max-width: 1280px;
+	max-width: 960px;
 	margin: auto;
 }
 
@@ -152,8 +154,16 @@ p {
 	overflow: hidden;
 	padding: 2% 0;
     text-align: center;
-    
+    hover h3: Deepskyblue;
 }
+
+.touts h3:hover {
+	color: deepskyblue;
+}
+.touts p:hover {
+	color: red;
+}
+
 .tout {
 	float: left;
 	width: 27.3333%;
@@ -179,6 +189,7 @@ footer {
 
 .salesforceadmin, .customisation, .consulting{
     padding: 2%;
+   text-align: center;
 }
 
 
@@ -186,8 +197,14 @@ footer {
     hr size="30";
 }
 
+.ourServices h2{
+    display: none;
+}
 
-
+.article {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /* testimonial */
 blockquote {
   font-size: 24px;
@@ -214,7 +231,6 @@ blockquote {
 }
 
 .tout {
-   
     float: none;
 	width: 100%
 	
@@ -275,6 +291,10 @@ legend{
     font-size: 1.5em;
     
 }
+
+    
+    
+    
 /*media queries for smaller screen size*/
 @media only screen and (max-width:768px){ 
     .container {

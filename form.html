@@ -4,12 +4,18 @@
         <meta charset="utf-8">
         <title>CRMSerivceDesk</title>
         <link type="text/css" rel="stylesheet" href="normalize.css">
-        <link type="text/css" rel="stylesheet" href="css/form.css">
+        <link type="text/css" rel="stylesheet" href="./css/form.css">
         
-        <meta name="viewport" content="width=max-width" />
+        <meta name="viewport" content="width=max-width"/>
     </head>
-    
-        <main>
+    <body>
+        <header id="page-header">
+            <div class="wrapper">
+                <h1><a href="index.html">CRM Service Desk</a></h1>
+                
+            </div>
+        </header>
+        
         <div class="form">
             <div class="main-heading">
                 <h1>CRM Service Desk</h1>
@@ -33,6 +39,11 @@
                             <input type = "text" name = "email" placeholder="name@mydomain.com">
                             
                             <hr>
+                                
+                            <label for="mobile">Mobile</label>
+                            <input type = "text" name = "email" placeholder="mobile">
+                        
+                            <hr>
                         
                             <label for="Company">Company</label>
                             <input type = "text" name = "Company" placeholder="ACME Inc">
@@ -44,7 +55,7 @@
                     <hr>
                         
                         <div class = "section1a">
-                            <legend>What would you like</legend>
+                            <legend>What services can I help you with?</legend>
                             <input type= "radio" name = "topic" id = "topic1">
                             <label for ="topic1">Salesforce Administration</label>
 
@@ -52,7 +63,7 @@
                             <label for ="topic2">Development</label>
 
                             <input type= "radio" name = "topic" id = "topic3">
-                            <label for ="topic3">Consuting</label>
+                            <label for ="topic3">Consulting</label>
                         </div>
 
                      </fieldset>
@@ -68,7 +79,7 @@
                     </div>
                     
             </div>  
-        </main>
+       
         <footer>
             
         </footer>
